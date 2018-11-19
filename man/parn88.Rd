@@ -26,13 +26,14 @@ and another column (weight) identifying the corresponding root support weight.}
 
 \item{exponent}{(Numeric scalar) Exponent to be used when computing
 root ambiguities. Defaults to 0.5, after \insertCite{Parncutt1988;textual}{parn88}.}
-
-\item{return}{A list with three values:
+}
+\value{
+A list with three values:
 \itemize{
 \item \code{root}, the estimated chord root (integer scalar);
 \item \code{root_ambiguity}, the root ambiguity (numeric scalar),
 \item \code{pc_weight}, a 12-dimensional vector of weights by pitch class.
-}}
+}
 }
 \description{
 Analyses a pitch-class set using the root-finding model of

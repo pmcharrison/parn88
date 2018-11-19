@@ -17,7 +17,7 @@
 #' and another column (weight) identifying the corresponding root support weight.
 #' @param exponent (Numeric scalar) Exponent to be used when computing
 #' root ambiguities. Defaults to 0.5, after \insertCite{Parncutt1988;textual}{parn88}.
-#' @param return A list with three values:
+#' @return A list with three values:
 #' * \code{root}, the estimated chord root (integer scalar);
 #' * \code{root_ambiguity}, the root ambiguity (numeric scalar),
 #' * \code{pc_weight}, a 12-dimensional vector of weights by pitch class.
