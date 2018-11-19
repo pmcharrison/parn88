@@ -14,6 +14,18 @@ status](https://coveralls.io/repos/github/pmcharrison/parn88/badge.svg)](https:/
 This R package, `parn88`, implements the psychoacoustic root-finding
 algorithm of Parncutt (1988).
 
+## Citation
+
+Cite the original paper:
+
+Parncutt, Richard. 1988. “Revision of Terhardt’s psychoacoustical model
+of the root(s) of a musical chord.” *Music Perception* 6 (1): 65–93.
+
+Cite the implementation:
+
+Peter M. C. Harrison. 2018. “parn88: Implementation of Parncutt’s (1988)
+root-finding model.” Zenodo. <https://doi.org/10.5281/zenodo.1491909>
+
 ## Installation
 
 You can install the package directly from Github.
