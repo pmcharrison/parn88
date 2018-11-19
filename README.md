@@ -83,6 +83,19 @@ root_ambiguity(c(0, 3, 6)) # dimimished triad
 #> [1] 2.50998
 ```
 
+## Root support weights
+
+By default, `parn88` uses updated root support weights as reported in
+Parncutt (2006). However, it is also possible to use root support
+weights as reported in the original paper (Parncutt 1988).
+
+``` r
+root_ambiguity(c(0, 4, 7)) # updated weights
+#> [1] 1.870829
+root_ambiguity(c(0, 4, 7), root_support = "v1") # original weights
+#> [1] 1.974842
+```
+
 # References
 
 <div id="refs" class="references">
@@ -91,6 +104,14 @@ root_ambiguity(c(0, 3, 6)) # dimimished triad
 
 Parncutt, Richard. 1988. “Revision of Terhardt’s psychoacoustical model
 of the root(s) of a musical chord.” *Music Perception* 6 (1): 65–93.
+
+</div>
+
+<div id="ref-Parncutt2006">
+
+———. 2006. “Commentary on Cook & Fujisawa’s "The Psychophysics of
+Harmony Perception: Harmony is a Three-Tone Phenomenon".” *Empirical
+Musicology Review* 1 (4): 204–9.
 
 </div>
 

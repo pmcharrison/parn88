@@ -75,4 +75,15 @@ root_ambiguity(c(0, 4, 8)) # augmented triad
 root_ambiguity(c(0, 3, 6)) # dimimished triad
 ```
 
+## Root support weights
+
+By default, `parn88` uses updated root support weights as reported in @Parncutt2006.
+However, it is also possible to use root support weights as reported in the
+original paper [@Parncutt1988].
+
+```{r}
+root_ambiguity(c(0, 4, 7)) # updated weights
+root_ambiguity(c(0, 4, 7), root_support = "v1") # original weights
+```
+
 # References
