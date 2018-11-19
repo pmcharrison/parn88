@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# parn88: Parncutt’s (1988) root-finding algorithm
+# parn88: Implementation of Parncutt’s (1988) root-finding algorithm
 
 [![AppVeyor build
 status](https://ci.appveyor.com/api/projects/status/github/pmcharrison/parn88?branch=master&svg=true)](https://ci.appveyor.com/project/pmcharrison/parn88)
