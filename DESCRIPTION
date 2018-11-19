@@ -17,3 +17,5 @@ RoxygenNote: 6.1.0
 Suggests: 
     testthat
 RdMacros: Rdpack
+URL: https://github.com/pmcharrison/parn88
+BugReports: https://github.com/pmcharrison/parn88/issues
