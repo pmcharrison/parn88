@@ -2,9 +2,8 @@
 #'
 #' Analyses a pitch-class set using the root-finding model of
 #' \insertCite{Parncutt1988;textual}{parn88}.
-#' @param x (Integerish scalar) Pitch-class set to analyse.
-#' This pitch-class set need not be sorted,
-#' but duplicate pitch classes are not permitted.
+#' @param x Sonority to analyse.
+#' This will be coerced to an object of class \code{\link[hrep]{pc_set}}.
 #' @param root_support (Character scalar or data frame)
 #' Identifies the root support weights to use.
 #' * \code{"v2"} (default) uses the updated
@@ -24,8 +23,22 @@
 #' @references
 #'   \insertAllCited{}
 #' @md
+#' @rdname parn88
 #' @export
 parn88 <- function(x, root_support = "v2", exponent = 0.5) {
+  UseMethod("parn88")
+}
+
+#' @rdname parn88
+#' @export
+parn88.default <- function(x, root_support = "v2", exponent = 0.5) {
+  x <- hrep::pc_set(x)
+  do.call(parn88, args = as.list(environment()))
+}
+
+#' @rdname parn88
+#' @export
+parn88.pc_set <- function(x, root_support = "v2", exponent = 0.5) {
   root_support <- get_root_support_weights(root_support)
 
   checkmate::qassert(x, "X+[0,11]")

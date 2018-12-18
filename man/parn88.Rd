@@ -2,14 +2,19 @@
 % Please edit documentation in R/main.R
 \name{parn88}
 \alias{parn88}
+\alias{parn88.default}
+\alias{parn88.pc_set}
 \title{Parncutt (1988)}
 \usage{
 parn88(x, root_support = "v2", exponent = 0.5)
+
+\method{parn88}{default}(x, root_support = "v2", exponent = 0.5)
+
+\method{parn88}{pc_set}(x, root_support = "v2", exponent = 0.5)
 }
 \arguments{
-\item{x}{(Integerish scalar) Pitch-class set to analyse.
-This pitch-class set need not be sorted,
-but duplicate pitch classes are not permitted.}
+\item{x}{Sonority to analyse.
+This will be coerced to an object of class \code{\link[hrep]{pc_set}}.}
 
 \item{root_support}{(Character scalar or data frame)
 Identifies the root support weights to use.
