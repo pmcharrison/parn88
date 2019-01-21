@@ -14,7 +14,7 @@ Imports:
     purrr (>= 0.2.5),
     Rdpack (>= 0.9.0),
     hrep (>= 0.4.0)
-RoxygenNote: 6.1.0
+RoxygenNote: 6.1.1
 Suggests: 
     testthat (>= 2.0.0),
     covr (>= 3.2.0)
