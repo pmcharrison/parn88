@@ -7,7 +7,6 @@ bibliography: inst/REFERENCES.bib
 
 # parn88: Parncutt's (1988) root-finding algorithm
 
-[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/pmcharrison/parn88?branch=master&svg=true)](https://ci.appveyor.com/project/pmcharrison/parn88)
 [![Travis build status](https://travis-ci.org/pmcharrison/parn88.svg?branch=master)](https://travis-ci.org/pmcharrison/parn88)
 [![Coverage status](https://coveralls.io/repos/github/pmcharrison/parn88/badge.svg)](https://coveralls.io/r/pmcharrison/parn88?branch=master)
 [![lifecycle](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)

@@ -3,8 +3,6 @@
 
 # parn88: Parncutt’s (1988) root-finding algorithm
 
-[![AppVeyor build
-status](https://ci.appveyor.com/api/projects/status/github/pmcharrison/parn88?branch=master&svg=true)](https://ci.appveyor.com/project/pmcharrison/parn88)
 [![Travis build
 status](https://travis-ci.org/pmcharrison/parn88.svg?branch=master)](https://travis-ci.org/pmcharrison/parn88)
 [![Coverage
