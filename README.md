@@ -8,6 +8,7 @@ status](https://travis-ci.org/pmcharrison/parn88.svg?branch=master)](https://tra
 [![Coverage
 status](https://coveralls.io/repos/github/pmcharrison/parn88/badge.svg)](https://coveralls.io/r/pmcharrison/parn88?branch=master)
 [![lifecycle](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1491909.svg)](https://doi.org/10.5281/zenodo.1491909)
 
 This R package, `parn88`, implements the psychoacoustic root-finding
 algorithm of Parncutt (1988).
