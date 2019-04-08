@@ -10,5 +10,5 @@
 #'
 #' @name root_by_pc_chord
 #' @docType data
-#' @keywords data?
+#' @keywords data
 NULL
