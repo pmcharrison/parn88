@@ -1,6 +1,3 @@
-#' @keywords internal
-"_PACKAGE"
-
 #' Root by pitch-class chord
 #'
 #' This vector stores precomputed chord roots for

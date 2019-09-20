@@ -1,6 +1,6 @@
 Package: parn88
 Title: Implementation of Parncutt's (1988) Root-Finding Algorithm
-Version: 0.2.0
+Version: 0.3.0
 Authors@R: person("Peter", "Harrison", email = "pmc.harrison@gmail.com", role = c("aut", "cre"))
 Description: This package provides an implementation of Parncutt's (1988) root-finding model, as described in the Music Perception paper entitled "Revision of Terhardt's psychoacoustical model of the root(s) of a musical chord".
 Depends: R (>= 3.4.0)
@@ -8,16 +8,16 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports: 
-    checkmate (>= 1.8.5),
-    tibble (>= 1.4.2),
+    checkmate (>= 1.9.4),
+    tibble (>= 2.1.3),
     magrittr (>= 1.5),
-    purrr (>= 0.2.5),
-    Rdpack (>= 0.9.0),
-    hrep (>= 0.4.0)
+    purrr (>= 0.3.2),
+    Rdpack (>= 0.11.0),
+    hrep (>= 0.10.0.9001)
 RoxygenNote: 6.1.1
 Suggests: 
-    testthat (>= 2.0.0),
-    covr (>= 3.2.0)
+    testthat (>= 2.1.1),
+    covr (>= 3.2.1)
 RdMacros: Rdpack
 URL: https://github.com/pmcharrison/parn88
 BugReports: https://github.com/pmcharrison/parn88/issues
