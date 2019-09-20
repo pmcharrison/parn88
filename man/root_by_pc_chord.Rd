@@ -10,4 +10,4 @@ all pitch-class chords,
 indexed by their encoding as defined in the "hrep" package.
 See \code{\link[hrep]{pc_chord}} for more details.
 }
-\keyword{data?}
+\keyword{data}
